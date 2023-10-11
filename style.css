@@ -60,7 +60,7 @@
 }
 
 .bearheader {
-    width: 60%; /* Adjust the width as needed */
+    width: 60%; 
     border-radius: 10px;
     margin-left: 5%;
 }
@@ -111,7 +111,8 @@ img{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 300px; /* Adjust the height as needed */
+    height: 300px; 
+
 }
 
 .quote {
@@ -122,8 +123,23 @@ img{
 }
 
 .credits {
-    margin-top: 5%; /* Adjust the margin as needed */
+    margin-top: 5%; 
     font-size: 12px;
     float: right;
+}
+
+.footer-container{
+    background-color: #3882f6;
+    color: #e5e7eb;
+    margin-top: 10%;
+    margin-left: 25%;
+    margin-bottom: 10%;
+    padding: 10px;
+    border-radius: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    height: 150px;
 }
 
