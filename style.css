@@ -128,18 +128,49 @@ img{
     float: right;
 }
 
-.footer-container{
+.footer-container {
     background-color: #3882f6;
     color: #e5e7eb;
-    margin-top: 10%;
-    margin-left: 25%;
-    margin-bottom: 10%;
+    margin: 10% auto;
     padding: 10px;
     border-radius: 10px;
     text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: center;
-    width: 40%;
+    width: 80%;
     height: 150px;
+}
+
+.footer-container .call, .footer-container .call1 {
+    text-align: center;
+    font-size: 24px;
+}
+
+.footer-container .call1 {
+    font-size: 20px;
+    margin-top: 5px; 
+}
+
+.footer-container button {
+    color: white;
+    background-color: #3882f6;
+    border: 2px solid white !important; 
+    border-radius: 10px;
+    padding: 10px 20px;
+    margin-top: 10px;
+    font-weight: 600;
+}
+
+
+.copyright-container{
+    background-color: #1f2937;
+    color:#e5e7eb;
+    margin: 0 auto ;
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+    font-weight: 100;
 }
 
